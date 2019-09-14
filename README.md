@@ -4,6 +4,8 @@ Little 3D printed arduino SMARS (Screwless Modular Assembleable Robotic System) 
 
 # Photo/Video Demonstration
 
+[Imgur](https://imgur.com/sVUaw9x)
+
 ![SMARS-Robot Photo][SMARS_Robot_Photo]
 
 [SMARS_Robot_Photo]: https://imgur.com/sVUaw9x
