@@ -79,35 +79,35 @@ To connect the mechanical tracks together, just use the 3D printer's filament. T
 
 # Electronic parts list*
 
- - Arduino Uno  : [ebay] - [amazon]
+ - Arduino Uno  : [ebay #1] - [amazon #1]
 
-  [ebay]: <https://rover.ebay.com/rover/1/709-53476-19255-0/1?icep_id=114&ipn=icep&toolid=20004&campid=5338595969&mpre=https%3A%2F%2Fwww.ebay.fr%2Fitm%2FCarte-ORIGINALE-UNO-R3-ARDUINO-support-UNO-R3-ARDU%2F282003193235%3Fhash%3Ditem41a8b33d93%3Ag%3AtbkAAOSw7KJXDjz9>
-  [amazon]: <https://amzn.to/2O0OeWM>
+  [ebay #1]: <https://rover.ebay.com/rover/1/709-53476-19255-0/1?icep_id=114&ipn=icep&toolid=20004&campid=5338595969&mpre=https%3A%2F%2Fwww.ebay.fr%2Fitm%2FCarte-ORIGINALE-UNO-R3-ARDUINO-support-UNO-R3-ARDU%2F282003193235%3Fhash%3Ditem41a8b33d93%3Ag%3AtbkAAOSw7KJXDjz9>
+  [amazon #1]: <https://amzn.to/2O0OeWM>
 
-  - L293D Motor Drive Shield : [ebay] - [amazon]
+  - L293D Motor Drive Shield : [ebay #2] - [amazon #2]
 
-  [ebay]: <https://rover.ebay.com/rover/1/709-53476-19255-0/1?icep_id=114&ipn=icep&toolid=20004&campid=5338595969&mpre=https%3A%2F%2Fwww.ebay.fr%2Fitm%2FL293D-Motor-Drive-Shield-Expansion-Board-For-Arduino-Duemilanove-Mega2560-UNO%2F173406697875%3Fhash%3Ditem285fd83993%3Ag%3AXwkAAOSwIrVbRrUQ>
-  [amazon]: <https://amzn.to/2LxfSZZ>
+  [ebay #2]: <https://rover.ebay.com/rover/1/709-53476-19255-0/1?icep_id=114&ipn=icep&toolid=20004&campid=5338595969&mpre=https%3A%2F%2Fwww.ebay.fr%2Fitm%2FL293D-Motor-Drive-Shield-Expansion-Board-For-Arduino-Duemilanove-Mega2560-UNO%2F173406697875%3Fhash%3Ditem285fd83993%3Ag%3AXwkAAOSwIrVbRrUQ>
+  [amazon #2]: <https://amzn.to/2LxfSZZ>
 
-  - 2x DC 6V Mini (150RPM)  : [ebay] - [amazon]
+  - 2x DC 6V Mini (150RPM)  : [ebay #3] - [amazon #3]
 
-  [ebay]: <https://rover.ebay.com/rover/1/709-53476-19255-0/1?icep_id=114&ipn=icep&toolid=20004&campid=5338595969&mpre=https%3A%2F%2Fwww.ebay.fr%2Fitm%2FDC-6V-Mini-Motoreducteur-VITESSE-Reduction-Moteur-electrique-50-100-150-200%2F273891903725%3Fhash%3Ditem3fc53ac8ed%3Am%3Am48Bv2ogDAaOwZUrjcSVr7A>
-  [amazon]: <https://amzn.to/32EjH5a>
+  [ebay #3]: <https://rover.ebay.com/rover/1/709-53476-19255-0/1?icep_id=114&ipn=icep&toolid=20004&campid=5338595969&mpre=https%3A%2F%2Fwww.ebay.fr%2Fitm%2FDC-6V-Mini-Motoreducteur-VITESSE-Reduction-Moteur-electrique-50-100-150-200%2F273891903725%3Fhash%3Ditem3fc53ac8ed%3Am%3Am48Bv2ogDAaOwZUrjcSVr7A>
+  [amazon #3]: <https://amzn.to/32EjH5a>
 
-  - 9V battery : [ebay] - [amazon]
+  - 9V battery : [ebay #4] - [amazon #4]
 
-  [ebay]: <https://rover.ebay.com/rover/1/709-53476-19255-0/1?icep_id=114&ipn=icep&toolid=20004&campid=5338595969&mpre=https%3A%2F%2Fwww.ebay.fr%2Fitm%2FPile-9v-Energizer-6F22-6LR61-9-volts-alcaline-lot-de-2-piles-MN1604-Industrial%2F303120769224%3Fhash%3Ditem469367e0c8%3Ag%3AcTUAAOSwk1hcq5AG>
-  [amazon]: <https://amzn.to/2NYCOTk>
+  [ebay #4]: <https://rover.ebay.com/rover/1/709-53476-19255-0/1?icep_id=114&ipn=icep&toolid=20004&campid=5338595969&mpre=https%3A%2F%2Fwww.ebay.fr%2Fitm%2FPile-9v-Energizer-6F22-6LR61-9-volts-alcaline-lot-de-2-piles-MN1604-Industrial%2F303120769224%3Fhash%3Ditem469367e0c8%3Ag%3AcTUAAOSwk1hcq5AG>
+  [amazon #4]: <https://amzn.to/2NYCOTk>
 
-  - 9V battery connector: [ebay] - [amazon]
+  - 9V battery connector: [ebay #5] - [amazon #5]
 
-  [ebay]: <https://rover.ebay.com/rover/1/709-53476-19255-0/1?icep_id=114&ipn=icep&toolid=20004&campid=5338595969&mpre=https%3A%2F%2Fwww.ebay.fr%2Fitm%2FConnecteur-piles-9-volts-9V-Battery-Snap-on-Connector-Clip-with-Wire-Holder%2F263047972777%3Fhash%3Ditem3d3ee187a9%3Am%3Amk3poFyLraDlZk5gRinjTdw>
-  [amazon]: <https://amzn.to/2O1QYDu>
+  [ebay #5]: <https://rover.ebay.com/rover/1/709-53476-19255-0/1?icep_id=114&ipn=icep&toolid=20004&campid=5338595969&mpre=https%3A%2F%2Fwww.ebay.fr%2Fitm%2FConnecteur-piles-9-volts-9V-Battery-Snap-on-Connector-Clip-with-Wire-Holder%2F263047972777%3Fhash%3Ditem3d3ee187a9%3Am%3Amk3poFyLraDlZk5gRinjTdw>
+  [amazon #5]: <https://amzn.to/2O1QYDu>
 
-   - Female to Female Dupont jump wires: [ebay] - [amazon]
+   - Female to Female Dupont jump wires: [ebay #6] - [amazon #6]
 
-  [ebay]: <https://rover.ebay.com/rover/1/709-53476-19255-0/1?icep_id=114&ipn=icep&toolid=20004&campid=5338595969&mpre=https%3A%2F%2Fwww.ebay.fr%2Fitm%2F40pcs-Dupont-Jump-Wire-M-F-M-M-F-F-Jumper-Breadboard-Cable-Lead-For-Arduino-UK%2F113798126900%3Fhash%3Ditem1a7ee59d34%3Am%3AmVonVpMq_9-RRmE6R2KKnFQ>
-  [amazon]: <https://amzn.to/2O2ySB4>
+  [ebay #6]: <https://rover.ebay.com/rover/1/709-53476-19255-0/1?icep_id=114&ipn=icep&toolid=20004&campid=5338595969&mpre=https%3A%2F%2Fwww.ebay.fr%2Fitm%2F40pcs-Dupont-Jump-Wire-M-F-M-M-F-F-Jumper-Breadboard-Cable-Lead-For-Arduino-UK%2F113798126900%3Fhash%3Ditem1a7ee59d34%3Am%3AmVonVpMq_9-RRmE6R2KKnFQ>
+  [amazon #6]: <https://amzn.to/2O2ySB4>
 
 
 
