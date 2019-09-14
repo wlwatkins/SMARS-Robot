@@ -1,17 +1,18 @@
-// Adafruit Motor shield library
-// copyright Adafruit Industries LLC, 2009
-// this code is public domain, enjoy!
 #include <Ultrasonic.h>
 #include "AFMotor.h"
 
-AF_DCMotor motorR(1);  // right
-AF_DCMotor motorL(4);  // left
-Ultrasonic ultrasonic(9, 10); // echo gris 10 ; trig white 9
-void setup() {
-  Serial.begin(9600);           // set up Serial library at 9600 bps
-  Serial.println("Motor test!");
+#define minDistance 5
+#define delayForwards 1000
+#define delayRotate 5
+#define delayLoop 100
 
-  // turn on motor
+AF_DCMotor motorR(1);  // right DC Motor
+AF_DCMotor motorL(4);  // left DC Motor
+Ultrasonic ultrasonic(9, 10); // echo grey pin 10 ; trig white pin 9
+void setup() {
+  Serial.begin(9600);
+
+
   motorR.setSpeed(200);
   motorL.setSpeed(200);
   motorR.run(RELEASE);
@@ -63,13 +64,13 @@ void loop() {
   uint8_t distance;
   distance = ultrasonic.read(CM);
 
-  if (distance < 5){
-    turnAround(5);
+  if (distance < minDistance){
+    turnAround(delayRotate);
   }
   else
   {
-    moveForwards(1000);
+    moveForwards(delayForwards);
   }
 
-  delay(500);
+  delay(delayLoop);
 }
