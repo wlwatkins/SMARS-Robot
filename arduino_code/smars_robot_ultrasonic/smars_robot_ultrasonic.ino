@@ -1,10 +1,12 @@
 #include <Ultrasonic.h>
 #include "AFMotor.h"
 
-#define minDistance 5
-#define delayForwards 1000
-#define delayRotate 5
-#define delayLoop 100
+#define minDistance 15
+#define delayForwards 750
+#define delayRotate 300
+#define delayLoop 75
+#define maxSpeed 75
+
 
 
 AF_DCMotor motorR(1);  // right DC Motor
@@ -24,7 +26,7 @@ void moveForwards(int timeDelay){
   uint8_t i;
   motorR.run(FORWARD);
   motorL.run(FORWARD);
-  for (i=0; i<255; i++) {
+  for (i=0; i<maxSpeed; i++) {
     motorR.setSpeed(i);
     motorL.setSpeed(i);
     delay(2);
@@ -32,7 +34,7 @@ void moveForwards(int timeDelay){
 
   delay(timeDelay);
 
-  for (i=255; i!=0; i--) {
+  for (i=maxSpeed; i!=0; i--) {
     motorR.setSpeed(i);
     motorL.setSpeed(i);
     delay(2);
@@ -45,13 +47,13 @@ void turnAround(int timeDelay) {
   uint8_t i;
   motorR.run(FORWARD);
   motorL.run(BACKWARD);
-  for (i=0; i<255; i++) {
+  for (i=0; i<maxSpeed; i++) {
     motorR.setSpeed(i);
     motorL.setSpeed(i);
     delay(10);
   }
   delay(timeDelay);
-  for (i=255; i!=0; i--) {
+  for (i=maxSpeed; i!=0; i--) {
     motorR.setSpeed(i);
     motorL.setSpeed(i);
     delay(10);
