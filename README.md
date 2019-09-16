@@ -2,11 +2,15 @@
 
 Little 3D printed arduino SMARS (Screwless Modular Assembleable Robotic System) robot with UltraSonic attachment and code. This is a nice little project do due with your gild, or to give as a gift. It introduces to robotcs and the Arduino system quite entertainingly. Attachements are available from the creator's website ([SMARS modular robot]).
 
-# Photo/Video Demonstration
 
-![SMARS-Robot Photo][SMARS_Robot_Photo]
 
-[SMARS_Robot_Photo]: https://i.imgur.com/sVUaw9xm.jpg
+<p align="center">
+  <img width="460" height="300" src="https://i.imgur.com/sVUaw9xm.jpg">
+</p>
+
+# Video Demonstration
+
+
 
 ![SMARS_Robot_video][SMARS_Robot_video]
 
